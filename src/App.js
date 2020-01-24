@@ -8,19 +8,39 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1> Nati</h1>
         </p>
+        <FormApp/>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        Nati
         </a>
+        
       </header>
     </div>
   );
+}
+class FormApp extends React.Component{
+
+  render(){
+    return(
+      <div className="formulario">
+        <label htmlFor="username"> Nombre de usuario</label>
+        <input name="username" id="username" type="text" />
+        <label htmlFor="userApellido"> Apellido</label>
+        <input name="username" id="username" type="text" />
+        <label htmlFor="useLocalidad">Localidad</label>
+        <input name="username" id="username" type="text" />
+        <label htmlFor="useEmail"> Email</label>
+        <input type="submit" value="enviar"/>
+       
+      </div>
+    )
+  }
 }
 
 export default App;
