@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import galeria from '../src/component/galeria';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <h1> Nati</h1>
         </p>
         <FormApp/>
+        <galeria/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -24,6 +26,7 @@ function App() {
     </div>
   );
 }
+
 class FormApp extends React.Component{
 
   render(){
@@ -42,5 +45,8 @@ class FormApp extends React.Component{
     )
   }
 }
+
+
+
 
 export default App;
