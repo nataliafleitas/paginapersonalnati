@@ -1,26 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import galeria from '../src/component/galeria';
+import Galeria from '../src/component/galeria1/galeria';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
         <h1> Nati</h1>
         </p>
         <FormApp/>
-        <galeria/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Nati
-        </a>
+        <Galeria/>
         
       </header>
     </div>
