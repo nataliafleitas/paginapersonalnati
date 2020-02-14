@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.module.scss';
 import Galeria from './component/galeria1/galeria';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
         </p>
         <FormApp nombre={nombre} />
         <Galeria />
-
+        <Fondo/>
       </header>
     </div>
   );
@@ -73,6 +72,217 @@ function Comentario (props) {
   )
   
 }
+
+class Fondo extends React.Component{
+
+  render(){
+    return(
+  <section>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>
+        <div className="snow"></div>       
+    </section>
+  )
+  }
+  }
+  
 
 
 
