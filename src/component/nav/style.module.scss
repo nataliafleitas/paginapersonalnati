@@ -1,0 +1,33 @@
+.nav{
+    margin: 5px;
+    padding: 5px;
+ 
+}
+.otro{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav a:hover{
+    color:white;
+    transition: all .3s;
+    background-color: rgb(163, 179, 221);
+    border-radius: 7px;
+    visibility: visible;
+    opacity: 1;
+  }
+.nav a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    background-color: #34393d;
+    color: #fff;
+}
+.nav{
+    padding: 10px;
+    background-color: #34393d;
+    color: #fff;
+    border-radius: 14px;
+}
+    

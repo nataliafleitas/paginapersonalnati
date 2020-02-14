@@ -15,7 +15,7 @@ class Galeria extends React.Component{
 render(){
     return(
         <div  className="contenedor">
-        <h1>Galeria </h1>
+        <h1>Fleitas </h1>
         <hr className="linea"> 
         </hr>
         <div className="imagen">
