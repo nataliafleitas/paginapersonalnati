@@ -8,7 +8,8 @@ class Nav extends React.Component{
       return(
         <div className={style.otro}> 
             <nav className={style.nav}>
-                <a className={style.uno} href="/enlace1/">Contacto</a>
+            <a className={style.uno} href="/enlace1/">Natalia Fleitas</a> 
+                <a className={style.uno} href="/enlace1/">Contacto</a> 
                 <a className={style.dos} href="/enlace2/">Sobre mi</a>
             </nav>
         </div>

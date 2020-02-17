@@ -1,7 +1,7 @@
 import React from 'react';
 import './galeria.css';
-import equipo from './imagenes/equipo.jpg';
-import equipo1 from './imagenes/equipo1.jpg';
+import tres from './imagenes/tres.png';
+import pajaros from './imagenes/pajaros.png';
 import equipo2 from './imagenes/equipo2.jpg';
 import naruto from  './imagenes/naruto.jpg';
 import naruto1 from './imagenes/naruto1.jpg';
@@ -16,11 +16,10 @@ render(){
     return(
         <div  className="contenedor">
         <h1>Fleitas </h1>
-        <hr className="linea"> 
-        </hr>
+       
         <div className="imagen">
-            <img src={equipo} onClick={()=> this.handleClick(0)} alt="equipo" className="img"/>
-            <img src={equipo1} onClick={()=> this.handleClick(1)} alt="equipo1" className="img"/>
+            <img src={tres} onClick={()=> this.handleClick(0)} alt="tres" className="img"/>
+            <img src={pajaros} onClick={()=> this.handleClick(1)} alt="equipo1" className="img"/>
             <img src={equipo2} onClick={()=> this.handleClick(2)} alt="equipo2" className="img"/>
             <img src={naruto} onClick={()=> this.handleClick(3)} alt="naruto" className="img"/>
             <img src={naruto1} onClick={()=> this.handleClick(4)} alt="naruto1" className="img"/>

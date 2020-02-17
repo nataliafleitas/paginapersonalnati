@@ -1,10 +1,4 @@
-.contenedor{
-    background: rgb(168, 188, 226);
-    width: 960px;
-    margin: auto;
-    height:940px;
-    border-radius: 10px;
-}
+
 
 h1{
     text-align: center;
@@ -12,11 +6,7 @@ h1{
     margin: 20px 0 15px 0;
     font-weight: 300;
 }
-.linea{
-    border-top: 5px solid ;
-    color: white;
 
-}
 
 .imagen{
     display: flex;
@@ -33,7 +23,7 @@ h1{
     position: relative;
     height: 250px;
     margin-bottom: 5px;
-    box-shadow: 0px 0px 3px 0px rgba(0,0,0, .75);
+    
     
 }
 
@@ -43,7 +33,4 @@ h1{
     object-fit: cover;
 } 
 
-img:hover{
-    opacity: .5;
-    transition: .9s;
-}
+
