@@ -8,7 +8,7 @@ class Fondo extends React.Component{
     render(){
       return(
         <div className={style.container}>
-          <section>
+          <section className={style.fixed}>
           <div className={style.snow}></div>
           <div className={style.snow}></div>
           <div className={style.snow}></div>

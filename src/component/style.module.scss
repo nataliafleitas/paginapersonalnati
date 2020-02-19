@@ -1,9 +1,16 @@
+  .fixed{
+    position: fixed;
+  }
   .container{
     height:  100%;
     overflow-x: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, rgb(4, 17, 43) 100%);
     filter: drop-shadow(0 0 10px white); 
-    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
   }
   
   @function random_range($min, $max) {
