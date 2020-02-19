@@ -18,6 +18,15 @@ render(){
         <h1>Fleitas </h1>
        
         <div className="imagen">
+            
+        
+        </div>
+        </div>
+        
+       /* <div  className="contenedor">
+        <h1>Fleitas </h1>
+       
+        <div className="imagen">
             <img src={tres} onClick={()=> this.handleClick(0)} alt="tres" className="img"/>
             <img src={pajaros} onClick={()=> this.handleClick(1)} alt="equipo1" className="img"/>
             <img src={equipo2} onClick={()=> this.handleClick(2)} alt="equipo2" className="img"/>
@@ -28,7 +37,9 @@ render(){
             <img src={sasuke1} onClick={()=> this.handleClick(7)} alt="sasuke1" className="img"/>
             <img src={sasuke2} onClick={()=> this.handleClick(9)} alt="sasuke2" className="img"/>
         </div>
-        </div>
+        </div>*/
+        
+        
     )
 }
 }
