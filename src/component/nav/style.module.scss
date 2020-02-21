@@ -4,7 +4,8 @@
     background-color: rgb(3, 10, 26);
     display: flex;
     justify-content: space-between;
-    
+    position: relative ;
+    z-index: 2;
 
 }
 .nav a{
